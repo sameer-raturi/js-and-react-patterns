@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import Listings from "./components/presentational/Listings";
+import Listing from "./components/container/Listing";
 
 export default function App() {
-  return <Listings />;
+  return <Listing />;
 }
